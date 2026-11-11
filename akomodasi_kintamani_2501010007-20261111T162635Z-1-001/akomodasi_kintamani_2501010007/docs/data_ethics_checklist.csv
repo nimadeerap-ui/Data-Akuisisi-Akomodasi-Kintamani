@@ -1,0 +1,11 @@
+no,butir,status,bukti
+1,Hanya memakai sumber yang diizinkan (Overpass/OSM dan BPS),SESUAI,Data akomodasi dari overpass-api.de; pembanding dari Kecamatan Kintamani Dalam Angka 2024 (BPS Bangli)
+2,"Tidak scraping OTA (Booking, Agoda, Traveloka, tiket.com, Airbnb, Tripadvisor) atau halaman Google Maps",SESUAI,Kode hanya memanggil overpass-api.de; situs akomodasi hanya dibuka manual untuk verifikasi 10 sampel
+3,Lisensi ODbL dipatuhi dan atribusi dicantumkan,SESUAI,"Atribusi © OpenStreetMap contributors ada di provenance.json, README, laporan, dan gambar peta"
+4,Batas pemakaian Overpass dihormati,SESUAI,Query akomodasi dan batas masing-masing sekali; pengaman membaca berkas mentah yang sudah ada; ada timeout 120 detik dan retry berjeda
+5,User-Agent mengidentifikasi pengambil data,SESUAI,Variabel HEADERS berisi INSTIKI-BIFP243-Praktikum/1.0 dan NIM
+6,"Data kontak (telepon, email, media sosial) tidak diambil",SESUAI,Fungsi ratakan tidak memuat kolom kontak; tidak ada kolom tersebut di akomodasi_kintamani.csv
+7,Berkas mentah tidak diubah setelah disimpan,SESUAI,Hash MD5 tercatat di provenance.json; semua pengolahan ditulis ke berkas baru di data/interim
+8,Tidak ada data dihapus diam-diam; keputusan dicatat,SESUAI,Baris bermasalah (Guesthouse dan Caldera) dipertahankan dan dilaporkan sebagai temuan kualitas data
+9,Keterbatasan data dinyatakan jujur,SESUAI,Uji kelengkapan terhadap BPS dan catatan perbedaan definisi ada di laporan
+10,"Verifikasi sampel dilakukan manual, bukan otomatis",SESUAI,10 sampel acak dicek lewat peta dan situs resmi yang dibuka manual; hasil di verifikasi_sampel.csv

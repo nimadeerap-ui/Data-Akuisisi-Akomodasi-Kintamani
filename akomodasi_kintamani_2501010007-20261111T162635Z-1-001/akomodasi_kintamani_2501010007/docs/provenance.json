@@ -1,0 +1,13 @@
+{
+  "endpoint": "https://overpass-api.de/api/interpreter",
+  "query": "[out:json][timeout:90];\narea[\"name\"=\"Kintamani\"][\"boundary\"=\"administrative\"][\"admin_level\"=\"6\"]->.kec;\nnwr[\"tourism\"~\"^(hotel|guest_house|hostel|motel|apartment|chalet)$\"](area.kec);\nout center tags;\n",
+  "waktu_akuisisi_utc": "2026-11-08T03:52:17+00:00",
+  "jumlah_elemen": 32,
+  "berkas_mentah": "osm_akomodasi_kintamani_20261108_035217.json",
+  "md5": "4bcbefc52d3d090a2e3f53e40f94f4c5",
+  "lisensi": "ODbL 1.0 - © OpenStreetMap contributors",
+  "pengambil": {
+    "nama": "Era",
+    "nim": "2501010007"
+  }
+}

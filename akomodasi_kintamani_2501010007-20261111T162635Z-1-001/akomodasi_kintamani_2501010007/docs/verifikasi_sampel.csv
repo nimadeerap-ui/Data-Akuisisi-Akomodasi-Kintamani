@@ -1,0 +1,11 @@
+osm_type,osm_id,nama,jenis,lat,lon,url_osm,nama_benar,jenis_benar,lokasi_benar,catatan
+node,1977779907,The Lakeview Hotel Bali,hotel,-8.2831398,115.3658438,https://www.openstreetmap.org/node/1977779907,ya,ya,ya,
+node,13284479326,Lava Bali and Hot Spring,hotel,-8.2503106,115.3963742,https://www.openstreetmap.org/node/13284479326,ya,ya,ya,
+node,7238422213,Batur Panorama,hotel,-8.2189435,115.3921304,https://www.openstreetmap.org/node/7238422213,ya,ya,ya,
+node,4150326329,Guesthouse,hotel,-8.2814556,115.3622232,https://www.openstreetmap.org/node/4150326329,ya,tidak terverifikasi,"Nama 'Guesthouse' terlalu generik. Pencarian nama di Nominatim hanya menemukan objek di luar Kintamani (Singapura), tidak ada usaha dengan nama itu di sekitar titik -8.281456, 115.362223. Di OSM bertag hotel, padahal nama menunjukkan guest house. Keberadaan dan jenis usaha tidak dapat dikonfirmasi.",
+node,7205318685,Tegal Suci Guest House,guest_house,-8.2214097,115.4129261,https://www.openstreetmap.org/node/7205318685,ya,ya,ya,
+node,4297310696,The Cave Hotel,hotel,-8.2807476,115.3620477,https://www.openstreetmap.org/node/4297310696,ya,ya,ya,
+node,5668936157,Black Lava Hostel,hostel,-8.2463334,115.3962755,https://www.openstreetmap.org/node/5668936157,ya,ya,ya,
+node,7058054537,Segara Hotel,hotel,-8.2780864,115.3791336,https://www.openstreetmap.org/node/7058054537,ya,ya,ya,
+node,5181842726,Batur Volcano Guesthouse,guest_house,-8.2495661,115.3938369,https://www.openstreetmap.org/node/5181842726,ya,ya,ya,
+node,6451134585,Caldera,hotel,-8.2791389,115.3673639,https://www.openstreetmap.org/node/6451134585,ya,tidak terverifikasi,tidak terverifikasi,"Pencarian nama 'Caldera' di Nominatim hanya menemukan objek di luar Kintamani (Provinsi Copiapó, Chile), tidak ada usaha dengan nama itu di sekitar titik -8.279139, 115.367364. Keberadaan dan jenis usaha tidak dapat dikonfirmasi."
